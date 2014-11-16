@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/TextOnInput1"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+   
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/TextOnInput2"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    
+    
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/Cheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Cheese" 
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/xCheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xCheese" />
+
+        <RadioButton
+            android:id="@+id/None"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/None" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/PizzaShape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/Square"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Square" />
+
+        <RadioButton
+            android:id="@+id/Round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Round"
+            android:checked="true" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check1"
+        android:onClick="onCheckboxClicked" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check2"
+         android:onClick="onCheckboxClicked" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check3"
+         android:onClick="onCheckboxClicked" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check4"
+         android:onClick="onCheckboxClicked" />
+
+    <Button
+        android:id="@+id/btnSendSM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSendSM" />
+   
+
+</LinearLayout>

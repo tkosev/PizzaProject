@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VTPizzas</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+   
+    <string name="Cheese">Cheese</string>
+    <string name="xCheese">2xCheese</string>
+    <string name="None">None</string>
+    <string name="Square">Square Pizza</string>
+    <string name="Round">Round Pizza</string>
+    <string name="btnSendSM">Send SMS</string>
+    <string name="TextOnInput1">Enter Your Name</string>
+    <string name="TextOnInput2">Enter Phone Number</string>
+    <string name="check1">Peperoni</string>
+    <string name="check2">Mushrooms</string>
+    <string name="check3">Veggies</string>
+    <string name="check4">Anchovies</string>
+    
+</resources>
